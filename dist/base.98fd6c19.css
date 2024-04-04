@@ -166,6 +166,7 @@ a:focus-visible {
 
 .frame__title {
   font-size: 2.3rem;
+
   margin: 0 0 1rem;
   font-weight: 500;
 }
@@ -238,6 +239,7 @@ a:focus-visible {
   justify-content: flex-start;
   align-items: center;
   text-align: center;
+ 
 }
 
 .js .content {
@@ -245,13 +247,14 @@ a:focus-visible {
 }
 
 .content p {
-  font-size: 2rem;
-  font-size: clamp(1.25rem, 6vw, 2.15rem);
+  font-size: 10px;
+  font-size: clamp(1rem, 6vw, 1.2rem);
   line-height: 1.25;
   max-width: 900px;
   margin: 0;
   pointer-events: none;
   will-change: transform;
+ 
 }
 
 .circles {
